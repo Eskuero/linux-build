@@ -1,0 +1,16 @@
+
+# Dependencies
+
+To build on an x86_64 system running Arch Linux you need the following packages:
+```
+$ pacman -Syu base-devel git
+```
+
+You will also need to install from AUR the following packages (for ARM emulation inside the chroot):
+- binfmt-qemu-static
+- qemu-user-static-bin
+
+# Building
+```
+# make
+```
