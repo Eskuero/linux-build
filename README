@@ -12,5 +12,7 @@ You will also need to install from AUR the following packages (for ARM emulation
 
 # Building
 ```
+$ git clone https://github.com/Danct12/linux-build/
+$ cd linux-build
 # make
 ```
